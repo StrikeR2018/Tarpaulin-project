@@ -1,4 +1,4 @@
-# Tarpaulin API
+# Tarpaulin 
 
 https://docs.google.com/document/d/1A-i0wsm3nTcKpkzOjcajy1OpDV1ZXcUPYJeo1vJ9tjQ/edit
 
@@ -32,7 +32,7 @@ docker run -d --name redis-server -p "6379:6379" redis:latest
 ```
 
 
-Data Entities
+##**Data Entities**
 The Tarpaulin API will manage the following data entities:
 
 Users
