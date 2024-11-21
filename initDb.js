@@ -6,7 +6,7 @@ sequelize.sync().then(async function (){
 	const results = await User.create({
 		name: "ADMIN USER",
 		email: "admin@localhost",
-		password: process.env.MYSQL_PASSWORD || "58",
+		password: process.env.MYSQL_PASSWORD || "66",
 		role: "admin"
 	}, UserClientFields)
 })
